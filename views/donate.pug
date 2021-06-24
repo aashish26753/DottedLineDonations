@@ -1,0 +1,35 @@
+extends base.pug
+
+block style 
+    style   
+        include ../static/styleDon.css
+
+block content 
+    section#part1 
+        p SOS Children’s Villages of India plans to reach out to 27,000 children including their caregivers across 10,000 families in 22 States of India with the ultimate aim to help them rebuild their lives and communities. Depending on the specific requirements, SOS India is extending recovery assistance to prevent further damage and loss, repair essential services, protect health, provide psychosocial support, restore livelihoods, and enhance food security.
+    section#part2 
+        li We shall equip each SOS Children’s Village with Oxygen concentrators – (Beneficiaries more than 4000 children & 600 mothers and aunts)
+        li We will supply of Covid/ medical kit to 220 family homes across India (Beneficiaries more 2200 children & 250 mothers and aunts)
+        li We will Supply of Covid / Medical kit to affected 800 families in community (Beneficiaries 800 caregivers and more than 2500 children)
+        li We will ensure safe and protected environment for children who have parents / families suffering / lost lives due to Covid-19 under our short term and long term stay programmes.
+        li We will reach out to provide Dry Ration supplies for 3 months to vulnerable families in communities.
+        li We shall work towards building Awareness and bringing out behavioural change-extend much needed psychosocial and technological support to overcome this crisis.
+        li We will work towards Linking families with State and Centre sponsored Welfare Schemes
+        li We will work towards rebuilding the lives through Livelihood assistance.
+    section#scan 
+        p scan QR to Donate 
+    section#QR
+        img(src="/static/QR Code.jpeg")
+    section#Billing
+        div.container
+            h1 Enter Your Details
+            form(action="/donate", method="post" ,class="myForm") 
+                input(type="text", class="myInput", name="name", placeholder="Enter your name")
+                input(type="phone", class="myInput", name="phone", placeholder="Enter your phone number")
+                input(type="email", class="myInput", name="email", placeholder="Enter your email id")
+                input(type="text", class="myInput", name="city", placeholder="Enter your Amount Donated (in rupees) ")
+                input(type="text", class="myInput", name="tranid", placeholder="Enter your Transaction ID")
+                button(class="btn", href="thankyou.pug")
+                    | Submit
+
+

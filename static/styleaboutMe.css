@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: no-repeat center/cover url('/static/perry-kibler-TPqlXR-I4lQ-unsplash.jpg');
+    max-height: 1000px;
+}
+#navbar{
+    padding: 13px 14px;
+    border-radius: 6px;
+    display: flex;
+    border-radius: 69px;
+    overflow: hidden;
+}
+
+#navbar ul{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 341px;
+    margin-right: 88px;
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding-right: 211px;
+    font-size: 23px;
+}
+#navbar li a{
+    float: left;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 23px;
+    padding-top: 13px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 9px;
+    margin-top: 2px;
+    font-size: 23px;
+}
+#navbar #logo img{
+    display: flex;
+    height: 71px;
+    align-items: center;
+    border-radius: 50%;
+}
+#matterAbout div.h1{
+    font-style: italic;
+    font-size: 33px;
+}
+#matterAbout div.p{
+    font-style: italic;
+    font-size: 23px;
+    justify-content: end;
+    display: flex;
+    align-items: center;    
+}
+#matterAbout{
+    display: relative;
+    width: 674px;
+    padding: 163px;
+    font-size: 20px;
+    animation-name: matter;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    height: 500px;
+}
+@keyframes matter{
+    from{
+        padding-left: 14px
+    }
+    to{
+        padding-left: 170px;
+    }
+}
+#navbar li a:hover{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    border-radius: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+@media only screen and (max-width:1235px) and (min-width: 450px){
+    #navbar ul{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 27px;
+        padding-right: 15px;
+        margin-right: 88px;
+        display: flex;
+    }
+}

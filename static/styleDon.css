@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+}
+#scan p{
+    justify-content: center;
+    text-align: center;
+    margin: 2px 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 31px;
+}
+
+.container{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#navbar li a:hover{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    border-radius: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: no-repeat center/cover url('/static/zongnan-bao-deagK9-Dmt0-unsplash.jpg');
+}
+#navbar{
+    padding: 13px 14px;
+    border-radius: 6px;
+    display: flex;
+    border-radius: 69px;
+    overflow: hidden;
+}
+
+#navbar ul{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 341px;
+    margin-right: 88px;
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding-right: 211px;
+    font-size: 23px;
+}
+#navbar li a{
+    float: left;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 23px;
+    padding-top: 13px;
+}
+#slogan h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 9px;
+    margin-top: 2px;
+    font-size: 23px;
+}
+#navbar #logo img{
+    display: flex;
+    height: 71px;
+    align-items: center;
+    border-radius: 50%;
+}
+#part1{
+display: flex;
+width: 596px;
+height: 300px;
+padding: 103px;
+font-size: 24px;
+align-content: center;
+justify-content: center;
+}
+#part2{
+height: 300px;
+padding: 103px;
+font-size: 24px;
+align-content: center;
+justify-content: center;
+}
+#part1,#part2{
+    animation-name: matter;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+@keyframes matter{
+    from{
+        padding-left: 14px
+    }
+    to{
+        padding-left: 103px;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border-radius: 23px;
+    color: black;
+    outline: none;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn{
+    padding: 12px 16px;
+border-radius: 14px;
+color: black;
+margin: 23px;
+width: 122px;
+cursor: pointer;
+font-family: 'Quicksand', sans-serif;
+}
+.container{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#QR{
+    display: flex;
+border-radius: 18%;
+justify-content: center;
+align-content: center;
+}
+#QR img{
+    display: flex;
+    border-radius: 12%;
+    height: 179px;
+    padding: 29px 0px;
+}
+@media only screen and (max-width:1235px) and (min-width: 450px){
+    #navbar ul{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 27px;
+        padding-right: 15px;
+        margin-right: 88px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:1166px) and (min-width: 450px){
+    #scan,#QR{
+       padding-top: 200px;
+    }
+}
+@media only screen and (max-width:500px) and (min-width: 380px){
+    .container{
+    min-height: 33vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    }
+}

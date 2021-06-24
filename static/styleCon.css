@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border-radius: 23px;
+    color: black;
+    outline: none;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn{
+    padding: 12px 16px;
+border-radius: 14px;
+color: black;
+margin: 23px;
+width: 122px;
+cursor: pointer;
+font-family: 'Quicksand', sans-serif;
+}
+.container{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#navbar li a:hover{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    border-radius: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: no-repeat center/cover url('/static/chrissie-giannakoudi-4EkJMrgCV3Y-unsplash.jpg');
+}
+#navbar{
+    padding: 13px 14px;
+    border-radius: 6px;
+    display: flex;
+    border-radius: 69px;
+    overflow: hidden;
+}
+
+#navbar ul{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 341px;
+    margin-right: 88px;
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding-right: 211px;
+    font-size: 23px;
+}
+#navbar li a{
+    float: left;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 23px;
+    padding-top: 13px;
+}
+#slogan h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 9px;
+    margin-top: 2px;
+    font-size: 23px;
+}
+#navbar #logo img{
+    display: flex;
+    height: 71px;
+    align-items: center;
+    border-radius: 50%;
+}
